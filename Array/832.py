@@ -13,11 +13,10 @@
  [1,1,1]]
  '''
  
- 解题思路：
-	直接暴力求解，通过遍历的方式对值进行调整。
-	
- C++:
  
+ 解题思路1：
+	直接暴力求解，通过遍历的方式对值进行调整。
+ C++:
 	 class Solution {
 		public:
 			vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
